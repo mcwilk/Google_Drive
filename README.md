@@ -23,9 +23,10 @@ Check whether destination directory contains any files (len >= 1):
 
 ## Technologies
 * Python 3.7.5
+* Google Drive API
 
 ## Libraries
-* Python: os, time, datetime, PyDrive, Google Drive API
+* Python: os, time, datetime, PyDrive
 
 ## Status
 Project is: _finished_
