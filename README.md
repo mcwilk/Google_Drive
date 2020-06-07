@@ -15,7 +15,8 @@ Step-by-step:
 1. Connect to Google Drive using 'gDriveConnection' function;
 2. Create an instance of Drive;
 3. Create two lists: first for all files metadata from destination directory and second for their names (titles) only;
-4. Main Logic: 
+4. Main Logic:
+
 Check whether destination directory contains any files (len >= 1):
 - if yes: Update existing files (if modified within last 12 hours) with 'updateFile' function or upload for the first time (if do not exist on Drive) with 'uploadFile' function;
 - if not: Upload files for the first time with 'uploadFile' function.
