@@ -11,10 +11,9 @@ from pydrive.drive import GoogleDrive
 drive_dir_id = "1SazGz1SPWhEl40OtiOmu-G7ibsFnkiKY"
 
 # Files to upload/update
-files = {'path1': r"/home/mcwilk/Pulpit/plik_excel1.xlsx",
-         'path2': r"/home/mcwilk/Pulpit/Maciej Wilk_LM_2020_2.docx",
-         'path3': r"/home/mcwilk/Pulpit/CV_Maciej_Wilk_31_05_2020.pdf",
-         'path4': r"/home/mcwilk/Pulpit/Genetycy 2.0.xlsx"}
+files = {'path1': r"/home/mcwilk/Pulpit/excel_file.xlsx",
+         'path2': r"/home/mcwilk/Pulpit/word_file.docx",
+         'path3': r"/home/mcwilk/pdf_file.pdf"}
 
 # Variables to verify modification time of files to upload/update
 now = time.time()
